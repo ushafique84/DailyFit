@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.usman.dailyfit" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".WorkoutListActivity"
+            android:label="@string/app_name"
+            android:theme="@style/MasterList" >
+
+            <!--
+           declaring a <meta-data> element pointing to
+           res/xml/searchable.xml file so the application can
+           find it
+            -->
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".WorkoutDetailActivity"
+            android:label="@string/title_workout_detail"
+            android:parentActivityName=".WorkoutListActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.usman.dailyfit.WorkoutListActivity" />
+        </activity>
+
+        <!-- Creating a searcheable activity -->
+        <activity
+            android:name=".SearchResultsActivity"
+            android:label="@string/app_name" >
+
+            <!-- This intent-filter identifies this activity as "searchable" -->
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <!-- This metadata entry provides further configuration details for searches -->
+                <!-- that are handled by this activity. -->
+                <meta-data
+                    android:name="android.app.searchable"
+                    android:resource="@xml/searchable" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+    </application>
+
+</manifest>

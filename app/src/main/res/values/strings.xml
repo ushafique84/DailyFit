@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Custom defined strings -->
+    <string name="app_name">DailyFit</string>
+    <string name="title_workout_detail">Workout Detail</string>
+    <string name="search_hint">Search for an exercise</string>
+    <string name="strength_training">Strength Training</string>
+    <string name="search">Search</string>
+    <string name="add_exercise">Add Exercise</string>
+
+    <!-- Custom defined colors -->
+    <color name="sky_blue">#24A5E3</color>
+    <color name="dark_bar">#000000</color>
+
+    <!-- Custom defined styles -->
+    <style name="firstaction">first</style>
+
+    <style name="secondacton">second</style>
+
+    <string name="title_activity_main">MainActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

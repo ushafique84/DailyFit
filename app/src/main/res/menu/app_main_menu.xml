@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dailyfit="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_search"
+        android:icon="@drawable/ic_search"
+        android:title="@string/search"
+        dailyfit:showAsAction="collapseActionView|ifRoom"
+        android:actionViewClass="android.widget.SearchView"
+        dailyfit:actionViewClass="android.widget.SearchView" />
+
+    <item android:id="@+id/add_exercise"
+        android:icon="@drawable/add_icon2"
+        android:title="@string/add_exercise"
+        dailyfit:showAsAction="ifRoom" />
+
+
+</menu>

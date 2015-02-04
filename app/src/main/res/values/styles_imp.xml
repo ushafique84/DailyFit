@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--
+          @style/AppTheme Implementation from styles.xml
+    -->
+    <style name="AppMainTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:typeface">sans</item>
+        <item name="android:shadowDx">1.2</item>
+        <item name="android:shadowDy">1.2</item>
+        <item name="android:shadowRadius">2</item>
+        <item name="android:textColor">#F4F7F9</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textSize">10pt</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+
+    </style>
+
+    <style name="MasterTextList" parent="Theme.AppCompat">
+        <item name="android:textColor">@android:color/holo_orange_light</item>
+    </style>
+
+    <style name="MyActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+</resources>
