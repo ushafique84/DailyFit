@@ -8,9 +8,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-
 import com.usman.dailyfit.dummy.DummyContent;
-
 /**
  * A fragment representing a single BodyWeight detail screen.
  * This fragment is either contained in a {@link BodyWeightListActivity}
@@ -55,8 +53,8 @@ public class BodyWeightDetailFragment extends Fragment {
 
         // Show the dummy content as text in a TextView.
         if (mItem != null) {
-            ((TextView) rootView.findViewById(R.id.workout_detail)).setText(mItem.workout_name);
-            ((ImageView) rootView.findViewById(R.id.workout_view)).setImageResource(mItem.resourceID);
+            ((TextView) rootView.findViewById(R.id.bodyweight_detail)).setText(mItem.workout_name);
+            ((ImageView) rootView.findViewById(R.id.bodyweight_view)).setImageResource(mItem.resourceID);
         }
 
         return rootView;

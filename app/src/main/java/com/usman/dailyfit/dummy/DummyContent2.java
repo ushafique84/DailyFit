@@ -27,10 +27,10 @@ import java.util.Map;
 
     static {
         // Add 3 sample items.
-        addItem(new DummyItem2("1", "Lunges", R.drawable.Body_Weight_Lunge));
+        addItem(new DummyItem2("1", "Lunges", R.drawable.body_weight_lunge));
         addItem(new DummyItem2("2", "Squats", R.drawable.bodyweight_squats));
         addItem(new DummyItem2("3", "Chin-ups", R.drawable.chinups));
-        addItem(new DummyItem2("4", "Sit-ups", R.drawable.Core_Full_Sit_Ups));
+        addItem(new DummyItem2("4", "Sit-ups", R.drawable.core_full_sit_ups));
         addItem(new DummyItem2("5", "Dips", R.drawable.dips));
         addItem(new DummyItem2("6", "Inverted Row", R.drawable.inverted_row));
         addItem(new DummyItem2("7", "Pull-ups", R.drawable.pullups));
