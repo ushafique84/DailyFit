@@ -149,4 +149,10 @@ public class WorkoutListFragment extends ListFragment {
 
         mActivatedPosition = position;
     }
+
+    public static WorkoutListFragment newInstance()
+    {
+        WorkoutListFragment myFragment = new WorkoutListFragment();
+        return myFragment;
+    }
 }

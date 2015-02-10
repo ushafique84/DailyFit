@@ -7,8 +7,10 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-
 import com.usman.dailyfit.dummy.DummyContent;
+import com.usman.dailyfit.dummy.DummyContent2;
+
+///import com.usman.dailyfit.dummy.DummyContent;
 
 /**
  * A list fragment representing a list of BodyWeights. This fragment
@@ -116,7 +118,7 @@ public class BodyWeightListFragment extends ListFragment {
 
         // Notify the active callbacks interface (the activity, if the
         // fragment is attached to one) that an item has been selected.
-        mCallbacks.onItemSelected(DummyContent.ITEMS.get(position).id);
+        mCallbacks.onItemSelected(DummyContent2.ITEMS.get(position).id);
     }
 
     @Override
